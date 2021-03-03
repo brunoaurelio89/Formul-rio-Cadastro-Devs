@@ -1,0 +1,125 @@
+/* Todos os elementos da página */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family:"Roboto", sans-serif;
+    height: 100%;
+   
+}
+
+
+fieldset {
+    border: 0;
+}
+
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+}
+
+body{
+    background: #F0F8FF;
+    font-size: 1em;
+    color: #000000;
+    margin-left: 27%;
+    margin-top: 2%;
+    
+    justify-content: center;
+    
+}
+
+
+/* Tratativa do título e subtítulo */
+
+.titulo_sub{
+    margin-left: 10%;
+    font-family:"Roboto", sans-serif;
+    color:#000000;
+}
+
+
+/* Tratativas do campos Input / Check box / Option */
+
+
+input, select, button {
+    font-size: 1em;
+    color: #000000;
+    border-radius: 5px;
+}
+
+.check2{
+    display: block;
+    justify-content: space-around;
+    justify-items: center;
+    width: 70%;    
+}
+
+.campo {
+    margin-bottom: 0.2em;
+}
+
+.campo{
+
+}
+
+.campo label{
+    margin-bottom: 0.5em;
+    color:#000000;
+    display: block;
+   
+}
+
+
+.campo input[type="text"], .campo input[type="email"], .campo select {
+    padding: 0.2em;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #a1a1a1;
+}
+
+
+
+/* Tratativa do button */
+
+.botao {
+    background: #000000;
+    color: #ffffff;
+    font-size: 1.3em;
+    margin-left: 15%;
+    padding: 0.2em 1em;
+    margin-bottom: 2%;
+}
+
+
+.botao:hover {
+    background: #a1a1a1;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+
+.botao, select{
+    cursor: pointer;
+} 
+
+.rodape{
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+
+.copyright {
+	font-size: 13px;
+	margin: 20px 0 0;
+}
